@@ -4,13 +4,28 @@
 
 html {
   box-sizing: border-box;
+  background: black;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.img__container {
+  background: url(../assets/img/gojira.png);
+  box-shadow: 0 0 8px 8px black inset;
+  border-radius: 20px;
+  width: 1440px;
+  height: 900px;
 }
