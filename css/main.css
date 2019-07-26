@@ -333,7 +333,7 @@ body {
   min-height: 100vh; }
 
 .img__container {
-  background: url(assets/img/gojira.png) center center;
+  background: url(../assets/img/gojira.png) center center;
   -webkit-box-shadow: 0 0 8px 8px black inset;
           box-shadow: 0 0 8px 8px black inset;
   border-radius: 20px;
