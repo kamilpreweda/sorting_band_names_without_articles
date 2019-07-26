@@ -23,7 +23,7 @@ body {
 }
 
 .img__container {
-  background: url(../assets/img/gojira.png) center center;
+  background: url(assets/img/gojira.png) center center;
   box-shadow: 0 0 8px 8px black inset;
   border-radius: 20px;
   width: 1440px;
@@ -32,12 +32,14 @@ body {
 
 #bands {
   list-style: inside square;
-  font-size: 20px;
+  font-size: 1em;
   background: white;
   margin: auto;
   padding: 0;
-  box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 0.5em rgba(255, 255, 255, 0.2);
   position: absolute;
+  border-radius: 20px;
+  left: 500px;
 }
 
 #bands li {
